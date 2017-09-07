@@ -17,6 +17,7 @@ NumberToPattern(index,k)
  prefixpattern <- NumberToPattern(prefixIndex, k-1)
  
  return concatenation of prefixpattern with symbol
+ 
  --------------------------------------------------------------------------------
  
  The Ori_find.py script description:
@@ -30,9 +31,7 @@ NumberToPattern(index,k)
  ---------------------------------------------------------------------------------
   The motifs.py script description:
   
-  Using the brute force approach solving the motif, based on the observation any (k,d) motif must be at most d mismatches apart from some
-  
-  k-mer
+  Using the brute force approach solving the motif, based on the observation any (k,d) motif must be at most d mismatches apart from some k-mer
   
   appearing in on eof the strings of DNA. Therefore, we can generate all such k-mers and then check which of them are (k,d)-motifs.
   ---------------------------------------------------------------------------------
